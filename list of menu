@@ -1,0 +1,19 @@
+from typing import List, Tuple
+
+
+menu_db: List[Tuple[str, str, int, List[str]]] = [
+    (
+        # title of food
+        # type of menu (dessert, salad, etc.)
+        # cost
+        # what it includes
+    )
+
+
+]
+
+menu_drinks = []
+
+menu_entries = []
+
+menu_desserts = []
