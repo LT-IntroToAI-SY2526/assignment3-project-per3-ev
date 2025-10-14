@@ -1,19 +1,112 @@
 from typing import List, Tuple
 
-
 menu_db: List[Tuple[str, str, int, List[str]]] = [
     (
-        # title of food
-        # type of menu (dessert, salad, etc.)
+        # restaurant name
+        # entrees
+        # choice of meat, weggies, toppings
+        # sides/drinks
         # cost
-        # what it includes
-    )
+        # what it includes/ingredients or may contain for allergic people
+        "panda express",
+        "chow mein",
+        "orange chicken",
+        11.75,
+        [ 
+            "",
+            "soy beans",
+            "wheat",
+            "sesame",
+        ], 
+    ),
+    (
+        "chipotle"
+        "burrito bowl",
+        "steak",
+        13.13,
+        [
+            "white rice"
+            "lettuce"
+        ],
+    ),
+    (
+        "mcdonald's",
+        "4 piece chicken nuggets",
+        "french fries",
+        7.38,
+        [
+            "",
+        ],
 
+    ),
+    (
+        "chipotle",
+        "quesadilla",
+        "fountain drink",
+        13.68 + 2.20,
+        [
+            "",
+        ],
+    ),
+    (
+        "mcdonald's",
+        "chicken sandwich",
+        "frozen lemonade",
+        "4 piece chicken nuggets",
+        4.29 + 6.59 + 4.39,
+        [
+            "",
+        ],
+    ),
+    (
+        "panda express",
+        "teraykai chicken",
+        "fried rice",
+        "water",
+        1.25 + 10.50 + 1.90,
+        [
+            "",
+        ],
+    ),
+    (
+        "chipotle",
+        "burrito",
+        "chips and queso",
+        "water",
+        13.13 + 3.65 + 2.45,
+        [
+            "",
+        ],
+    ),
+    (
+        "mcdonald's",
+        "frozen lemonade",
+        "wraps",
+        6.59 + 7.29,
+        [
+            "",
+        ],
 
+    ),
+    (
+        "panda express",
+        "orange chicken",
+        "fried rice",
+        1.25 + 10.50
+        [
+            "",
+        ],
+
+    ),
+    (
+        "mcdonald's",
+        "fruit cup",
+        "frozen lemonade",
+        "fries",
+        3.65 + 6.59 + 1.99,
+        [
+            "",
+        ],
+
+    ),
 ]
-
-menu_drinks = []
-
-menu_entries = []
-
-menu_desserts = []
