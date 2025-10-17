@@ -1,0 +1,28 @@
+def get_food_info(burrito bowl)
+    match food_choice.lower():
+        case "bowl":
+            return {
+                "resraunt": "Chipotle",
+                "ingrediens": ["rice", "meat", "beans", "pico de gallo", "lettuce"],
+                "allergy_warnings": ["soy", "sulfites", "sunflower oil"]
+            }
+
+
+def get_food_info(plate)
+    match food_choice.lower():
+        case "plate":
+            return {
+                "restraunt": "Panda Express",
+                "ingredients": ["rice", "teryaki chicken", "angus black pepper steak"],
+                "allergy_warnings": ["egg", "sesame seeds", "soy", "wheat"]  
+              }
+
+
+def get_food_info(plate)
+    match food_choice.lower():
+        case "nugget meal":
+            return {
+                "restraunt": "McDonalds",
+                "ingrdients": ["chicken", "fries", "bbq sauce", "coke"],
+                "allergy_warnings": ["wheat"]
+            }
