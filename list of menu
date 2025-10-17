@@ -1,0 +1,134 @@
+from typing import List, Tuple
+
+menu_db: List[Tuple[str, str, int, List[str]]] = [
+    (
+        # fast food restaurant name
+        # entrees or the base
+        # choice of meat
+        # choice of veggies, toppings (if any)
+        # sides/drinks
+        # total cost
+        # what it may contain for allergens
+        "panda express",
+        "chow mein",
+        "orange chicken",
+        11.75,
+        [ 
+            "celery",
+            "soy beans",
+            "wheat",
+            "sesame",
+        ], 
+    ),
+    (
+        "chipotle"
+        "steak",
+        "lettuce",
+        "white rice",
+        13.13,
+        [
+            "soy",
+            "sulfites",
+            "sunflower oil",
+        ],
+    ),
+    (
+        "mcdonald's",
+        "4 piece chicken nuggets",
+        "fries",
+        7.38,
+        [
+            "wheat",
+        ],
+
+    ),
+    (
+        "chipotle",
+        "quesadilla",
+        "fountain drink",
+        15.88,
+        [
+            "dairy",
+            "wheat",
+        ],
+    ),
+    (
+        "mcdonald's",
+        "chicken sandwich",
+        "frozen lemonade",
+        "4 piece chicken nuggets",
+       15.27,
+        [
+            "wheat",
+            "egg",
+            "soy",
+            "soya",
+        ],
+    ),
+    (
+        "panda express",
+        "teraykai chicken",
+        "fried rice",
+        "water",
+        13.65,
+        [
+            "soy",
+            "wheat",
+            "egg",
+            "sesame seeds",
+        ],
+    ),
+    (
+        "chipotle",
+        "burrito",
+        "chips and queso",
+        "water",
+        19.23,
+        [
+            "wheat",
+            "corn",
+            "soy",
+            "dairy",
+        ],
+    ),
+    (
+        "mcdonald's",
+        "frozen lemonade",
+        "wraps",
+        13.88,
+        [
+            "eggs",
+            "milk",
+            "soy",
+            "sesame",
+            "wheat",
+            "soya",
+        ],
+
+    ),
+    (
+        "panda express",
+        "orange chicken",
+        "fried rice",
+        11.75,
+        [
+            "egg",
+            "sesame seeds",
+            "soy",
+            "wheat",
+        ],
+
+    ),
+    (
+        "mcdonald's",
+        "apple slices",
+        "frozen lemonade",
+        "fries",
+        10.08,
+        [
+            "wheat",
+            "soya",
+        ],
+
+    ),
+]
