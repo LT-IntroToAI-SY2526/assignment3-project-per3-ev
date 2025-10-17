@@ -7,7 +7,7 @@ menu_db: List[Tuple[str, str, int, List[str]]] = [
         # choice of meat
         # choice of weggies, toppings (if any)
         # sides/drinks
-        # cost
+        # total cost
         # what it may contain for allergens
         "panda express",
         "chow mein",
@@ -46,7 +46,7 @@ menu_db: List[Tuple[str, str, int, List[str]]] = [
         "chipotle",
         "quesadilla",
         "fountain drink",
-        13.68 + 2.20,
+        15.88,
         [
             "dairy",
             "wheat",
@@ -57,7 +57,7 @@ menu_db: List[Tuple[str, str, int, List[str]]] = [
         "chicken sandwich",
         "frozen lemonade",
         "4 piece chicken nuggets",
-        4.29 + 6.59 + 4.39,
+       15.27,
         [
             "wheat",
             "egg",
@@ -70,7 +70,7 @@ menu_db: List[Tuple[str, str, int, List[str]]] = [
         "teraykai chicken",
         "fried rice",
         "water",
-        1.25 + 10.50 + 1.90,
+        13.65,
         [
             "soy",
             "wheat",
@@ -83,7 +83,7 @@ menu_db: List[Tuple[str, str, int, List[str]]] = [
         "burrito",
         "chips and queso",
         "water",
-        13.13 + 3.65 + 2.45,
+        19.23,
         [
             "wheat",
             "corn",
@@ -95,7 +95,7 @@ menu_db: List[Tuple[str, str, int, List[str]]] = [
         "mcdonald's",
         "frozen lemonade",
         "wraps",
-        6.59 + 7.29,
+        13.88,
         [
             "eggs",
             "milk",
@@ -110,7 +110,7 @@ menu_db: List[Tuple[str, str, int, List[str]]] = [
         "panda express",
         "orange chicken",
         "fried rice",
-        1.25 + 10.50
+        11.75,
         [
             "egg",
             "sesame seeds",
@@ -124,7 +124,7 @@ menu_db: List[Tuple[str, str, int, List[str]]] = [
         "apple slices",
         "frozen lemonade",
         "fries",
-        1.50 + 6.59 + 1.99,
+        10.08,
         [
             "wheat",
             "soya",
