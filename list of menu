@@ -5,7 +5,7 @@ menu_db: List[Tuple[str, str, int, List[str]]] = [
         # fast food restaurant name
         # entrees or the base
         # choice of meat
-        # choice of weggies, toppings (if any)
+        # choice of veggies, toppings (if any)
         # sides/drinks
         # total cost
         # what it may contain for allergens
